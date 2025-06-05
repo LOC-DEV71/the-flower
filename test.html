@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html, body {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth; /* scroll mượt */
+  overflow-y: scroll;
+}
+
+.snap-section {
+  height: 100vh; /* full màn hình */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  scroll-snap-align: start;
+}
+
+/* Container để bật scroll snap */
+body {
+  scroll-snap-type: y mandatory;
+}
+
+</style>
+<body>
+  <section class="snap-section" style="background: lightcoral;">Section 1</section>
+  <section class="snap-section" style="background: lightblue;">Section 2</section>
+  <section class="snap-section" style="background: lightgreen;">Section 3</section>
+  <section class="snap-section" style="background: lightgoldenrodyellow;">Section 4</section>
+</body>
+
+</html>

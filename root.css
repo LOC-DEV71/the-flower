@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+}
+
+:root{
+    --clr: rgb(255, 255, 255);
+    --clr-card: rgb(232, 230, 230);
+    --clr-section: rgb(246, 246, 246);
+    --clr-text: rgb(81, 81, 81);
+    --clr-btn: #F92B3F;
+}
